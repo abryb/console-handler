@@ -1,0 +1,23 @@
+{
+  "name": "abryb/console-handler",
+  "description": "Monolog console handler with output sections for symfony. Progress bar based on logs.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Błażej Rybarkiewicz",
+      "email": "b.rybarkiewicz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1 || ^8.0",
+    "symfony/console": "^4.0",
+    "symfony/monolog-bridge": "^4.0",
+    "symfony/monolog-bundle": "^3.0",
+    "symfony/dependency-injection": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Abryb\\ConsoleHandler\\": "src/"
+    }
+  }
+}
